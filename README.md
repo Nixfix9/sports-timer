@@ -1,2 +1,2 @@
 # sports-timer
-programmable clock for sports training
+Programmierbare Digitaluhr. Um das Intervalltraining besser steuern zu können.
