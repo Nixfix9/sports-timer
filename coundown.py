@@ -15,7 +15,7 @@ while countDownStart:
         inputSec -= 1
         checkTime = time.time()
         
-        if inputSec <=0:
+        if inputSec <=0 and totalCount >= 0:
             inputMin -= 1
             inputSec = 60
         
@@ -31,4 +31,4 @@ while countDownStart:
                 print(str(inputMin), ':', str(inputSec))
         totalCount -= 1
         if totalCount <= 0:
-        countDownStart = False
+            countDownStart = False
