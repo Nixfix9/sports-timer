@@ -1,7 +1,8 @@
 import time
 
 stopWatchStart = True
-timeSec = 0timeMin = 0
+timeSec = 0
+timeMin = 0
 checkTime = time.time()
 
 print ('0' + str(timeMin), ':', '0' + str(timeSec))
